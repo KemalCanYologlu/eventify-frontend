@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Eventify — Database Visualization Demo</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <div>
+      <h1>Eventify</h1>
+      <p class="subtitle">Client-side database visualization (CSV → Objects → UI)</p>
+    </div>
+
+    <div class="controls">
+      <label>
+        Select Event
+        <select id="eventSelect">
+          <option value="">All events</option>
+        </select>
+      </label>
+
+      <label>
+        Search participant
+        <input id="participantSearch" type="search" placeholder="name or email..." />
+      </label>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Events</h2>
+      <div id="eventsMeta" class="meta"></div>
+      <div id="eventsList" class="grid"></div>
+    </section>
+
+    <section class="card">
+      <h2>Sessions</h2>
+      <div id="sessionsMeta" class="meta"></div>
+      <div class="tableWrap">
+        <table id="sessionsTable">
+          <thead>
+            <tr>
+              <th>Event</th>
+              <th>Session</th>
+              <th>Hall</th>
+              <th>Start</th>
+              <th>End</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Tickets (Summary)</h2>
+      <div id="ticketsMeta" class="meta"></div>
+      <div class="tableWrap">
+        <table id="ticketsTable">
+          <thead>
+            <tr>
+              <th>Event</th>
+              <th>Ticket Type</th>
+              <th>Capacity</th>
+              <th>Sold</th>
+              <th>Fill</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Participants</h2>
+      <div id="participantsMeta" class="meta"></div>
+      <div class="tableWrap">
+        <table id="participantsTable">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>Deployed via GitHub Pages • Read-only demo</span>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

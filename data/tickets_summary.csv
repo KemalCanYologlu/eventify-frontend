@@ -1,0 +1,7 @@
+"event_id","event_name","ticket_type","capacity","sold_tickets"
+1,"Data Science Summit 2025","Standard",150,"80"
+1,"Data Science Summit 2025","VIP",50,"0"
+2,"Indie Music Night","Front Row",100,"0"
+2,"Indie Music Night","Regular",600,"70"
+3,"Hands-on Workshop Series","Full Access Pass",80,"0"
+3,"Hands-on Workshop Series","Workshop Pass",120,"50"

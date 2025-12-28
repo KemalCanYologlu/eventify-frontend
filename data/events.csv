@@ -1,0 +1,4 @@
+"event_id","name","event_type","description","start_date","end_date","venue_id"
+1,"Data Science Summit 2025","Conference","Two-day summit on data science, AI and analytics.","2025-04-10","2025-04-11",1
+2,"Indie Music Night","Concert","Live performances from indie bands.","2025-05-05","2025-05-05",2
+3,"Hands-on Workshop Series","Workshop","Practical workshops on cloud, DevOps and microservices.","2025-06-15","2025-06-16",1
