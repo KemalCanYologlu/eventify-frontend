@@ -17,3 +17,9 @@ This project is a client-side web application developed for visualizing an event
 ## Live Demo
 GitHub Pages:
 https://kemalcanyologlu.github.io/eventify-frontend/
+
+## Academic Context
+This project was developed as part of **STAT 311 – Modern Database Systems**.
+
+The full project report, including database design (ERD), relational schema,
+SQL queries, and system architecture, is available in the `report/` folder.
